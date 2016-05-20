@@ -1,0 +1,13 @@
+language: php
+
+services:
+	- mysql
+
+env:
+  global:
+    #Reply Email 
+    - EMAIL='kevin@bt48.com'
+
+before_script:
+
+	- mysql -e 'create database drupal_test;'
