@@ -7,4 +7,4 @@ env:
     #Reply Email 
     - EMAIL='kevin@bt48.com'
 before_script:
-   -mysql -e "create database drupal_test;"
+   -mysql -e 'create database drupal_test;'
