@@ -11,3 +11,4 @@ env:
 before_script:
 
 	- mysql -e 'create database drupal_test;'
+	
